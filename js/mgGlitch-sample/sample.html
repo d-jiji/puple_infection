@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #0c0c0c;
+    overflow: hidden;
+}
+
+#container{
+    width: 80%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+#target{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(./picture.png);
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- 必ず上のjQueryライブラリを読み込んでから -->
+<script src="./mgGlitch.min.js"></script>
+<!-- 公式サイト -->
+<!-- https://github.com/hmongouachon/mgGlitch -->
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="target"></div>
+    </div>
+
+    <script>
+        $(function(){
+            $("#target").mgGlitch({
+                // trueならプラグインを終了
+                destroy : false, 
+                // falseならグリッチ処理を停止
+                glitch: true, 
+                // falseなら拡縮を終了
+                scale: true, 
+                // falseで画像の混乱を終了
+                blend : true, 
+                // エフェクトタイプを指定
+                blendModeType : "hue",
+                // 1つ目のグリッチ用要素の最短ディレイ秒数
+                glitch1TimeMin : 200, 
+                // 1つ目のグリッチ用要素の最長ディレイ秒数
+                glitch1TimeMax : 400,
+                // 2つ目のグリッチ用要素の最短ディレイ秒数
+                glitch2TimeMin : 10, 
+                // 2つ目のグリッチ用要素の最長ディレイ秒数
+                glitch2TimeMax : 100, 
+            });
+        });
+    </script>
+</body>
+</html>
