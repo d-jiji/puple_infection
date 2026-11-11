@@ -11,7 +11,7 @@ a{
 }
 
 body{
-    background-color:#222222;
+    background-color: #222222;
 }
 
 .header{
@@ -53,7 +53,7 @@ body{
 
 .list-logo-outer{
     text-align: center;
-    margin-top: 0.5%;
+    margin-top: 0.3%;
 }
 
 
@@ -103,15 +103,88 @@ body{
     align-items: center;
 }
 
-
-
-.mv-text{
+h1{
     font-size: 88px;
     color: #8E34FD;
     font-family: "Goldman", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
 }
+
+
+
+
+
+.news_top{
+    margin-top: 800px;
+}
+
+
+
+
+.section_header{
+    font-size: 48px;
+    color: #8E34FD;
+    font-family: "Goldman", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.news_top h2{
+    text-align: center;
+}
+
+hr{
+    background-color:#8E34FD;
+    border: none;
+    height: 3px; 
+}
+
+.top_news_line{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 76px;
+}
+
+
+
+.news_content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.news_flame{
+    border: 1px solid #8E34FD;
+    margin-right: 50px;
+    width: 314px;
+}
+
+
+.news_text_area{ 
+    padding: 10px;
+
+    p{
+        font-size: 16px;
+        color:#F3F3F3;
+        font-family: "Noto Sans JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .release{
+        color:#8E34FD;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
 
 
 /* news下層ページ(担当みさき) */
