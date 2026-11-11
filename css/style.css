@@ -160,6 +160,7 @@ a{
     width:634px;  
     display:block;
     margin: auto;
+    line-height: 2.2;
  p{text-align: center;  
     }
 }
@@ -178,12 +179,32 @@ a{
 
 .abouthistory{
     display:flex;
-
+    justify-content: center;
+    margin-top: 100px;
+    line-height: 1.9;
+    
 }
 
 .historydate{
     color: #F3F3F3;
+    list-style: none;
+
 }
+
+.historydate li{
+    padding-left: 200px;
+    padding-right: 50px;
+ 
+}
+
+.historystory{
+    color: #F3F3F3;
+    list-style: none;
+    margin-bottom: 200px;
+}
+
+
+
 
 
 
