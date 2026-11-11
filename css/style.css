@@ -230,7 +230,7 @@ a{
 .PPtext{
     width:1000px;    
     color: #F3F3F3;
-     margin: 0 auto;
+    margin: 0 auto;
     text-align: center;  
     padding-top: 40px;
     padding-bottom: 130px;
@@ -240,3 +240,28 @@ a{
 
 }
 
+.housin{
+    width:1000px; 
+    color: #F3F3F3;
+    margin: 0 auto;   
+    h2{
+        margin-bottom: 52px;
+    }
+    ul{
+        padding-bottom: 130px;        
+    }
+    li{margin-left: 1em;
+   }
+}
+
+.toriatukai{
+    color: #F3F3F3;
+}
+
+.riyoumokuteki{
+    color: #F3F3F3;
+}
+
+.shirushi{
+    color: #F3F3F3;
+}
