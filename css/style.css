@@ -187,7 +187,78 @@ hr{
 
 
 
+/* news下層ページ(担当みさき) */
 
+.oya{background-color: #222222;
+    max-width:  1200px;
+    margin: auto;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.newsphoto{margin: 78px 100px 78px 100px;
+    border: 3px solid#8E34FD;
+}
+.newsphoto1{border: 3px solid#8E34FD;
+    margin-bottom: 24px;
+}
+.box1{h2{margin:0 auto;
+    text-align: center;
+    font-family: "LINE Seed JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    margin: 148px 0 53px 0;
+}
+.box2{p{margin:0 auto;
+    text-align: center;}
+    margin-bottom: 100px;
+}
+.box4{h2{margin:0 auto;
+    text-align: center;
+    font-family: "LINE Seed JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    h3{margin:0 auto;
+    text-align: center;
+    font-family: "LINE Seed JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+}
+.box5{p{margin:0 auto;
+    text-align: center;}
+}
+.box6{margin:48px 348px 48px 348px;
+}
+.box7{h2{margin:0 auto;
+    text-align: center;
+    font-family: "LINE Seed JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+}
+.box8{margin:60px 100px 102px 100px;
+}
+.box9{border: 3px solid#8E34FD;
+    margin: 102px 416px 368px 416px;
+    padding: 29px 50px 30px 100px;
+}
+
+   p{ font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color:#F3F3F3;
+   }
+
+   h3{font-family:"Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color:#F3F3F3;
+      font-size: 24px;
+   }
 
 
 /*about下層ページ(担当：ジョン)*/
@@ -200,6 +271,7 @@ hr{
 .abouttop{
     max-width:  1200px;
     margin: auto;
+    margin-bottom: 24px;
     text-align: center;
 }
 .abouttoppicture{
