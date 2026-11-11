@@ -209,3 +209,33 @@ a{
 
 
 
+
+
+
+
+
+
+
+/*Privacy Policy下層ページ(担当：ジョン)*/
+
+
+.PrivacyPolicy{
+    width:1200px;
+    background-color: #222222;
+     margin: auto;
+    
+}
+
+.PPtext{
+    width:1000px;    
+    color: #F3F3F3;
+     margin: 0 auto;
+    text-align: center;  
+    padding-top: 40px;
+    padding-bottom: 130px;
+
+}
+.PPzennbun{
+
+}
+
