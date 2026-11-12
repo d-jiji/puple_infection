@@ -14,6 +14,10 @@ body{
     background-color: #222222;
 }
 
+
+/* ----------------------------
+            ヘッダー
+--------------------------------*/
 .header{
     max-width: 100%;
     height: 85px;
@@ -50,12 +54,10 @@ body{
 }
 
 
-
 .list-logo-outer{
     text-align: center;
     margin-top: 0.3%;
 }
-
 
 .list-right-outer{
     width: 35%;
@@ -82,6 +84,10 @@ body{
 }
 
 
+
+/* ----------------------------
+            mv
+--------------------------------*/
 #mv{
     width: 100%;
     height: fit-content;
@@ -90,7 +96,7 @@ body{
 
 #mv-image{
     width: 100%;
-    height: 100%;
+    height: 750px;
     background-image: url(/img/mv.png);
     background-size: cover;
     position: absolute;
@@ -113,29 +119,39 @@ h1{
 
 
 
-
-
-.news_top{
-    margin-top: 800px;
-}
-
-
-
-
+/* ----------------------------
+            TOP共通
+--------------------------------*/
 .section_header{
     font-size: 48px;
     color: #8E34FD;
     font-family: "Goldman", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 15px;
 }
 
-.news_top{
-    margin-bottom: 200px;
-}
-
-.news_top h2{
+p{
+    font-size: 16px;
+    color:#F3F3F3;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
+}
+
+
+
+/* ----------------------------
+            TOP_NEWS
+--------------------------------*/
+.news_top{
+    margin-top: 800px;
+    margin-bottom: 150px;
+
+    h2{
+    text-align: center;
+    }
 }
 
 hr{
@@ -147,10 +163,8 @@ hr{
 .top_news_line{
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 76px;
+    margin-bottom: 53px;
 }
-
-
 
 .news_content{
     display: flex;
@@ -168,15 +182,6 @@ hr{
 .news_text_area{ 
     padding: 10px;
 
-    p{
-        font-size: 16px;
-        color:#F3F3F3;
-        font-family: "Noto Sans JP", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-    }
-
     .release{
         color:#8E34FD;
         margin-bottom: 10px;
@@ -185,6 +190,139 @@ hr{
 
 
 
+
+
+/* ----------------------------
+            TOP_MEMBER
+--------------------------------*/
+.member_top{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    h2{
+    margin-left: 50px;
+    }
+}
+
+.top_member_line{
+    width: 70%;
+    margin-bottom: 53px;
+}
+
+.member_content {
+
+    img{
+        margin-bottom: 30px;
+        border: 2px solid #8E34FD;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+}
+
+.member_btn{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+
+
+/* ----------------------------
+            TOP_ABOuT
+--------------------------------*/
+.about_top{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    h2{
+        text-align: right;
+        margin-right: 50px;
+    }
+}
+
+.top_about_line{
+    width: 56%;
+    margin-bottom: 53px;
+    margin-left: auto;
+}
+
+.about_content{
+    display: flex;
+
+    .about_right{
+        padding: 48px;
+
+        p{
+            margin-bottom: 50px;
+
+            span{
+                color: #8E34FD;
+            }
+        }
+    }
+}
+
+.member_btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* ----------------------------
+            TOP_FANCLUB
+--------------------------------*/
+.fanclub_top{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+
+    h2{
+        text-align: left;
+        margin-left: 50px;
+    }
+}
+
+.top_fanclub_line{
+    width: 66%;
+    margin-bottom: 53px;
+}
+
+.fanclub_content{
+    display: flex;
+}
+
+.fanclub_left{
+    padding: 42px;
+
+    p{
+        margin-bottom: 50px;
+        span{
+            color: #8E34FD;
+        }
+    }
+}
+
+
+
+.fanclub_btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* ----------------------------
+                btn
+--------------------------------*/
 .btn_area{
     text-align: center;
 }
@@ -195,7 +333,7 @@ hr{
     top: 0;
     left: 0;
     background: #222222;
-    padding: 25px 35px;
+    padding: 20px 35px;
     min-width: 200px;
     display: inline-block;
     text-decoration: none;
@@ -238,7 +376,7 @@ hr{
 
 
 /* ----------------------------
-
+                cube
 --------------------------------*/
 .cube-area {
     background-color: #222222;
