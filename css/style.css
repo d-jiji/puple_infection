@@ -182,20 +182,54 @@ hr{
 
 
 
-/* news下層ページ(担当みさき) */
-.newsback{border: 1px solid #ffffff;
-    background-color: #ffffff;
+/* news_contents2下層ページ(担当みさき) */
+
+.dai{max-width:  1200px;
+    margin: auto;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.newsback{background-color: #222222;
+}
+.newsborder{border:3px solid #8E34FD;
+    margin: 78px 100px 78px 100px;
+}
+.apextext{margin: 72px 100px 41px 100px;
+
+
+    h2{font-size: 36px;
+       font-family:"LINE Seed JP", sans-serif;
+       font-weight: 400;
+       font-style: normal; 
+       margin:0 auto;
+       text-align: center; 
+     }
+}
+.apexparticipation{margin: 0px 100px 72px 100px;
+
+    h2{font-size: 32px;
+       font-family:"LINE Seed JP", sans-serif;
+       font-weight: 400;
+       font-style: normal;  
+       color:#f2f2f2;
+       margin:0 auto;
+       text-align: center;
+    }
+}
+.newsbutton{border: 3px solid#8E34FD;
+    margin: 102px 416px 368px 416px;
+    padding: 29px 50px 30px 100px;
+    
+    h3{font-family:"Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color:#F3F3F3;
+      font-size: 24px;
+    }
 }
 
-.newsborder{background-color:#8E34FD;
 
-}
-
-
-
-
-
-/* news下層ページ(担当みさき) */
+/* news_contents1下層ページ(担当みさき) */
 
 .oya{background-color: #222222;
     max-width:  1200px;
