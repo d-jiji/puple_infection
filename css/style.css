@@ -334,7 +334,7 @@ hr{
 .newsback{background-color: #222222;
 }
 .newsborder{border:3px solid #8E34FD;
-    margin: 78px 100px 78px 100px;
+    margin: 0px 100px 78px 100px;
 }
 .apextext{margin: 72px 100px 41px 100px;
 
@@ -358,16 +358,8 @@ hr{
        text-align: center;
     }
 }
-.newsbutton{border: 3px solid#8E34FD;
-    margin: 102px 416px 368px 416px;
-    padding: 29px 50px 30px 100px;
-    
-    h3{font-family:"Goldman", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color:#F3F3F3;
-      font-size: 24px;
-    }
+.newsbutton{
+    margin: 72px 0px 72px 0px;
 }
 
 
