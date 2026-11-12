@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>タイトル</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=LINE+Seed+JP&family=Noto+Sans+JP:wght@100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!--jQuery本体-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- 必ず上のjQueryライブラリを読み込んでから -->
+<script src="js/mgGlitch-sample/mgGlitch.min.js"></script>
+<!-- 公式サイト -->
+<!-- https://github.com/hmongouachon/mgGlitch -->
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+
+               <div class="list-left-outer">
+                <li class="list-content"><a href="">NEWS</a></li>
+                <li class="list-content"><a href="">TEAM</a></li>
+               </div>
+
+
+                <div class="list-logo-outer">
+                    <a href="">
+                     <img src="img/logo1.png" class="list-logo" width="138" height="73"  >
+                    </a>
+                </div>
+
+
+                <div class="list-right-outer">
+                    <li class="list-content"><a href="">COMPANY</a></li>       
+                    <li class="list-content"><a href="">RECRUIT</a></li>
+                </div>
+
+                <div class="list-cta-outer">
+                    <li class="list-content"><a href="">FANCLUB</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header> 
+    
+    <div id="mv">
+            <div id="mv-image">
+                <h1>Purple Infection</h1>
+            </div>
+    </div>
+
+
+    <div class="news_top">
+        <h2 class="section_header">NEWS</h2>
+        <hr class="top_news_line"></hr>
+
+        <div class="news_content">
+            <div class="news_flame">
+                <div class="news_icon">
+                    <img src="img/top-news1.png" alt="" width="312" height="322" >
+                </div>
+                <div class="news_text_area">
+                    <p class="release">2026.10.28</p>
+                    <p>ストリーマー部門 新メンバー加入のお知らせ</p>
+                </div>
+            </div>
+            <div class="news_flame">
+                <div class="news_icon">
+                    <img src="img/top-news2.png" alt="" width="312" height="322" >                    
+                </div>
+                <div class="news_text_area">
+                    <p class="release">2026.10.28</p>
+                    <p>オフィシャルサイトリニューアルのお知らせ</p>
+                </div>
+            </div>
+            <div class="news_flame">
+                <div class="news_icon">
+                    <img src="img/top-news3.png" alt="" width="312" height="322" >                    
+                </div>
+                <div class="news_text_area">
+                    <p class="release">2026.10.28</p>
+                    <p>11月ファンミーティング会員先行受付のご案内</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="btn_flame" href="#" target="blank"><p class="btn_text">MORE</p></a>
+    </div>
+
+
+
+    <script>
+        $(function(){
+            $('#mv-image').mgGlitch({
+                // trueならプラグインを終了
+                destroy : false, 
+                // falseならグリッチ処理を停止
+                glitch: true, 
+                // falseなら拡縮を終了
+                scale: false, 
+                // falseで画像の混乱を終了  
+                blend : true, 
+                // エフェクトタイプを指定
+                blendModeType : "overlay",
+                // 1つ目のグリッチ用要素の最短ディレイ秒数
+                glitch1TimeMin : 600, 
+                // 1つ目のグリッチ用要素の最長ディレイ秒数
+                glitch1TimeMax : 1200,
+                // 2つ目のグリッチ用要素の最短ディレイ秒数
+                glitch2TimeMin : 200, 
+                // 2つ目のグリッチ用要素の最長ディレイ秒数
+                glitch2TimeMax : 600, 
+                zIndexStart: 3
+            });
+        });
+    </script>
+
+</body>
+
+</html>
