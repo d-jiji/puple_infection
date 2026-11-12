@@ -14,6 +14,10 @@ body{
     background-color: #222222;
 }
 
+
+/* ----------------------------
+            ヘッダー
+--------------------------------*/
 .header{
     max-width: 100%;
     height: 85px;
@@ -50,12 +54,10 @@ body{
 }
 
 
-
 .list-logo-outer{
     text-align: center;
     margin-top: 0.3%;
 }
-
 
 .list-right-outer{
     width: 35%;
@@ -82,6 +84,10 @@ body{
 }
 
 
+
+/* ----------------------------
+            mv
+--------------------------------*/
 #mv{
     width: 100%;
     height: fit-content;
@@ -90,7 +96,7 @@ body{
 
 #mv-image{
     width: 100%;
-    height: 100%;
+    height: 750px;
     background-image: url(/img/mv.png);
     background-size: cover;
     position: absolute;
@@ -113,29 +119,39 @@ h1{
 
 
 
-
-
-.news_top{
-    margin-top: 800px;
-}
-
-
-
-
+/* ----------------------------
+            TOP共通
+--------------------------------*/
 .section_header{
     font-size: 48px;
     color: #8E34FD;
     font-family: "Goldman", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 15px;
 }
 
-.news_top{
-    margin-bottom: 200px;
-}
-
-.news_top h2{
+p{
+    font-size: 16px;
+    color:#F3F3F3;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
+}
+
+
+
+/* ----------------------------
+            TOP_NEWS
+--------------------------------*/
+.news_top{
+    margin-top: 800px;
+    margin-bottom: 150px;
+
+    h2{
+    text-align: center;
+    }
 }
 
 hr{
@@ -147,10 +163,8 @@ hr{
 .top_news_line{
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 76px;
+    margin-bottom: 53px;
 }
-
-
 
 .news_content{
     display: flex;
@@ -168,15 +182,6 @@ hr{
 .news_text_area{ 
     padding: 10px;
 
-    p{
-        font-size: 16px;
-        color:#F3F3F3;
-        font-family: "Noto Sans JP", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-    }
-
     .release{
         color:#8E34FD;
         margin-bottom: 10px;
@@ -185,6 +190,139 @@ hr{
 
 
 
+
+
+/* ----------------------------
+            TOP_MEMBER
+--------------------------------*/
+.member_top{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    h2{
+    margin-left: 50px;
+    }
+}
+
+.top_member_line{
+    width: 70%;
+    margin-bottom: 53px;
+}
+
+.member_content {
+
+    img{
+        margin-bottom: 30px;
+        border: 2px solid #8E34FD;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+}
+
+.member_btn{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+
+
+/* ----------------------------
+            TOP_ABOuT
+--------------------------------*/
+.about_top{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    h2{
+        text-align: right;
+        margin-right: 50px;
+    }
+}
+
+.top_about_line{
+    width: 56%;
+    margin-bottom: 53px;
+    margin-left: auto;
+}
+
+.about_content{
+    display: flex;
+
+    .about_right{
+        padding: 48px;
+
+        p{
+            margin-bottom: 50px;
+
+            span{
+                color: #8E34FD;
+            }
+        }
+    }
+}
+
+.member_btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* ----------------------------
+            TOP_FANCLUB
+--------------------------------*/
+.fanclub_top{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+
+    h2{
+        text-align: left;
+        margin-left: 50px;
+    }
+}
+
+.top_fanclub_line{
+    width: 66%;
+    margin-bottom: 53px;
+}
+
+.fanclub_content{
+    display: flex;
+}
+
+.fanclub_left{
+    padding: 42px;
+
+    p{
+        margin-bottom: 50px;
+        span{
+            color: #8E34FD;
+        }
+    }
+}
+
+
+
+.fanclub_btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* ----------------------------
+                btn
+--------------------------------*/
 .btn_area{
     text-align: center;
 }
@@ -195,7 +333,7 @@ hr{
     top: 0;
     left: 0;
     background: #222222;
-    padding: 15px 20px;
+    padding: 20px 35px;
     min-width: 200px;
     display: inline-block;
     text-decoration: none;
@@ -237,20 +375,159 @@ hr{
 
 
 
-/* news下層ページ(担当みさき) */
-.newsback{border: 1px solid #ffffff;
-    background-color: #ffffff;
+/* ----------------------------
+                cube
+--------------------------------*/
+.cube-area {
+    background-color: #222222;
+    margin: 0;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Arial Black', sans-serif;
 }
 
-.newsborder{background-color:#8E34FD;
+.animation-container {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: cubeRotate 10s infinite linear;
+}
+
+.cube-face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* 文字の設定: 純白 */
+    color: #9969f8;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    /* 文字を白く光らせて際立たせる */
+    text-shadow: 0 0 10px #8E34FD, 0 0 20px rgba(255, 255, 255, 0.4);
+    
+    backface-visibility: visible;
+    
+    /* 背景グラデーション (#3624ff から #ff3c3c) */
+    background: linear-gradient(135deg, rgba(54, 36, 255, 0.25), rgba(23, 14, 14, 0.25));
+    
+    /* 枠線グラデーション */
+    border: 3px solid;
+    border-image: linear-gradient(135deg, #3624ff, #c91cfd) 1;
+    
+    /* 外側と内側の光（青と赤の混合） */
+    box-shadow: 0 0 20px rgba(54, 36, 255, 0.4), 
+                inset 0 0 20px rgba(31, 23, 23, 0.4);
+}
+
+/* 3D 配置設定 */
+.front  { transform: rotateY(0deg) translateZ(100px); }
+.back   { transform: rotateY(180deg) translateZ(100px); }
+.right  { transform: rotateY(90deg) translateZ(100px); }
+.left   { transform: rotateY(-90deg) translateZ(100px); }
+.top    { transform: rotateX(90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+/* 回転アニメーション */
+@keyframes cubeRotate {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+/* 背景にうっすらと光を配置 */
+.bg-glow {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(54, 36, 255, 0.1) 0%, rgba(255, 60, 60, 0.1) 50%, transparent 70%);
+    filter: blur(80px);
+    z-index: -1;
+}
+/* memberページ(担当みさき) */
+.teammemberbackground{background-color: #222222;
+}
+.teammemberdiv{border:1px solid #f3f3f3;
+      display: flex;
+}
+.teammemberphoto{border:3px solid #8E34FD;
+    margin: 144px 132px 144px 100px;
+    
+    h3{font-family: "Tomorrow","Noto sans JP";
+    color: #f3f3f3;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: -2.2%;   
+    }
+    p{font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color:#F3F3F3;
+    }
+}
+.teammemberdiv1{border:1px solid #f3f3f3;
+    display: flex;
 
 }
 
 
 
 
+/* news_contents2下層ページ(担当みさき) */
 
-/* news下層ページ(担当みさき) */
+.dai{max-width:  1200px;
+    margin: auto;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.newsback{background-color: #222222;
+}
+.newsborder{border:3px solid #8E34FD;
+    margin: 0px 100px 78px 100px;
+}
+.apextext{margin: 72px 100px 41px 100px;
+
+
+    h2{font-size: 36px;
+       font-family:"LINE Seed JP", sans-serif;
+       font-weight: 400;
+       font-style: normal; 
+       margin:0 auto;
+       text-align: center; 
+     }
+}
+.apexparticipation{margin: 0px 100px 72px 100px;
+
+    h2{font-size: 32px;
+       font-family:"LINE Seed JP", sans-serif;
+       font-weight: 400;
+       font-style: normal;  
+       color:#f2f2f2;
+       margin:0 auto;
+       text-align: center;
+    }
+}
+.newsbutton{
+    margin: 72px 0px 72px 0px;
+}
+
+
+/* news_contents1下層ページ(担当みさき) */
 
 .oya{background-color: #222222;
     max-width:  1200px;
@@ -258,7 +535,7 @@ hr{
     margin-bottom: 24px;
     text-align: center;
 }
-.newsphoto{margin: 78px 100px 78px 100px;
+.newsphoto{margin: 0 100px 78px 100px;
     border: 3px solid#8E34FD;
 }
 .newsphoto1{border: 3px solid#8E34FD;
@@ -421,14 +698,6 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
 /*Privacy Policy下層ページ(担当：ジョン)*/
 
 
@@ -462,6 +731,12 @@ hr{
     li{margin-left: 1em;
    }
 }
+
+.hitotudake{
+    margin-top: 16px;
+}
+
+
 
 .toriatukai{
     width:1000px; 
