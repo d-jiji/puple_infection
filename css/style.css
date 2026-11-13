@@ -535,7 +535,15 @@ hr {
 .teammemberdiv1 {
     border: 1px solid #f3f3f3;
     display: flex;
-
+    gap: 132px;
+    padding: 0px 100px 27px 100px; 
+    justify-content: center;
+}
+.teammemberdiv3{
+    display: flex;
+    gap: 132px;
+    padding: 400px 100px 100px 100px; 
+    justify-content: center;
 }
 
 
