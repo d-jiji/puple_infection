@@ -1,16 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
 
-header a:link{text-decoration: none;color:#8E34FD;}
-header a:visited{text-decoration: none;color:#8E34FD;}
-header a:hover{text-decoration: underline;color: #F3F3F3;}
-header a:active{text-decoration: underline;color: #F3F3F3;}
-
-a{
-  text-decoration: none;
+header a:link {
+    text-decoration: none;
+    color: #8E34FD;
 }
 
-body{
+header a:visited {
+    text-decoration: none;
+    color: #8E34FD;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #F3F3F3;
+}
+
+header a:active {
+    text-decoration: underline;
+    color: #F3F3F3;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
     background-color: #222222;
 }
 
@@ -18,25 +33,26 @@ body{
 /* ----------------------------
             ヘッダー
 --------------------------------*/
-.header{
+.header {
     max-width: 100%;
     height: 85px;
     background-color: #222222;
     margin: 0 auto;
     display: flex;
-    border: 3px solid#8E34FD;;
+    border: 3px solid#8E34FD;
+    ;
 }
 
-.nav{
+.nav {
     width: 100%;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     width: 100%;
 }
 
-.list-left-outer{
+.list-left-outer {
     width: 50%;
     display: flex;
     justify-content: flex-end;
@@ -45,21 +61,21 @@ body{
     padding: 2% 1%;
 }
 
-.list-content{
+.list-content {
     font-size: 16px;
     color: #8E34FD;
     list-style: none;
-    font-family:"Tomorrow", sans-serif;
+    font-family: "Tomorrow", sans-serif;
     height: fit-content;
 }
 
 
-.list-logo-outer{
+.list-logo-outer {
     text-align: center;
     margin-top: 0.3%;
 }
 
-.list-right-outer{
+.list-right-outer {
     width: 35%;
     display: flex;
     height: fit-content;
@@ -67,14 +83,14 @@ body{
     padding: 2% 1%;
 }
 
-.list-cta-outer{
+.list-cta-outer {
     width: 12%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    .list-content{
+    .list-content {
         font-family: "Goldman", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -88,13 +104,13 @@ body{
 /* ----------------------------
             mv
 --------------------------------*/
-#mv{
+#mv {
     width: 100%;
     height: fit-content;
     background-color: #222222;
 }
 
-#mv-image{
+#mv-image {
     width: 100%;
     height: 750px;
     background-image: url(/img/mv.png);
@@ -109,7 +125,7 @@ body{
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 88px;
     color: #8E34FD;
     font-family: "Goldman", sans-serif;
@@ -122,7 +138,7 @@ h1{
 /* ----------------------------
             TOP共通
 --------------------------------*/
-.section_header{
+.section_header {
     font-size: 48px;
     color: #8E34FD;
     font-family: "Goldman", sans-serif;
@@ -131,9 +147,9 @@ h1{
     margin-bottom: 15px;
 }
 
-p{
+p {
     font-size: 16px;
-    color:#F3F3F3;
+    color: #F3F3F3;
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -145,45 +161,45 @@ p{
 /* ----------------------------
             TOP_NEWS
 --------------------------------*/
-.news_top{
+.news_top {
     margin-top: 800px;
     margin-bottom: 150px;
 
-    h2{
-    text-align: center;
+    h2 {
+        text-align: center;
     }
 }
 
-hr{
-    background-color:#8E34FD;
+hr {
+    background-color: #8E34FD;
     border: none;
-    height: 3px; 
+    height: 3px;
 }
 
-.top_news_line{
+.top_news_line {
     width: 50%;
     margin: 0 auto;
     margin-bottom: 53px;
 }
 
-.news_content{
+.news_content {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-bottom: 76px;
 }
 
-.news_flame{
+.news_flame {
     border: 1px solid #8E34FD;
     width: 314px;
 }
 
 
-.news_text_area{ 
+.news_text_area {
     padding: 10px;
 
-    .release{
-        color:#8E34FD;
+    .release {
+        color: #8E34FD;
         margin-bottom: 10px;
     }
 }
@@ -195,34 +211,34 @@ hr{
 /* ----------------------------
             TOP_MEMBER
 --------------------------------*/
-.member_top{
+.member_top {
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 150px;
 
-    h2{
-    margin-left: 50px;
+    h2 {
+        margin-left: 50px;
     }
 }
 
-.top_member_line{
+.top_member_line {
     width: 70%;
     margin-bottom: 53px;
 }
 
 .member_content {
 
-    img{
+    img {
         margin-bottom: 30px;
         border: 2px solid #8E34FD;
     }
 
-    p{
+    p {
         margin-bottom: 30px;
     }
 }
 
-.member_btn{
+.member_btn {
     display: flex;
     justify-content: right;
     margin-right: 50px;
@@ -233,40 +249,40 @@ hr{
 /* ----------------------------
             TOP_ABOuT
 --------------------------------*/
-.about_top{
+.about_top {
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 150px;
 
-    h2{
+    h2 {
         text-align: right;
         margin-right: 50px;
     }
 }
 
-.top_about_line{
+.top_about_line {
     width: 56%;
     margin-bottom: 53px;
     margin-left: auto;
 }
 
-.about_content{
+.about_content {
     display: flex;
 
-    .about_right{
+    .about_right {
         padding: 48px;
 
-        p{
+        p {
             margin-bottom: 50px;
 
-            span{
+            span {
                 color: #8E34FD;
             }
         }
     }
 }
 
-.member_btn{
+.member_btn {
     display: flex;
     justify-content: center;
 }
@@ -277,33 +293,34 @@ hr{
 /* ----------------------------
             TOP_FANCLUB
 --------------------------------*/
-.fanclub_top{
+.fanclub_top {
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 150px;
 
 
-    h2{
+    h2 {
         text-align: left;
         margin-left: 50px;
     }
 }
 
-.top_fanclub_line{
+.top_fanclub_line {
     width: 66%;
     margin-bottom: 53px;
 }
 
-.fanclub_content{
+.fanclub_content {
     display: flex;
 }
 
-.fanclub_left{
+.fanclub_left {
     padding: 42px;
 
-    p{
+    p {
         margin-bottom: 50px;
-        span{
+
+        span {
             color: #8E34FD;
         }
     }
@@ -311,7 +328,7 @@ hr{
 
 
 
-.fanclub_btn{
+.fanclub_btn {
     display: flex;
     justify-content: center;
 }
@@ -323,7 +340,7 @@ hr{
 /* ----------------------------
                 btn
 --------------------------------*/
-.btn_area{
+.btn_area {
     text-align: center;
 }
 
@@ -339,6 +356,7 @@ hr{
     text-decoration: none;
     overflow: hidden;
 }
+
 .explore_btn span {
     position: relative;
     top: 0;
@@ -348,22 +366,24 @@ hr{
     color: #fff;
     z-index: 1;
 }
+
 .explore_btn:before {
-  content: "";
-  width: 0%;
-  height: 100%;
-  background: #8E34FD;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.2s;
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #8E34FD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
 }
+
 .explore_btn:hover:before {
-  width: 100%;
+    width: 100%;
 }
 
 
-.explore_text{
+.explore_text {
     font-size: 24px;
     color: #F3F3F3;
     font-family: "Goldman", sans-serif;
@@ -410,7 +430,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     /* 文字の設定: 純白 */
     color: #9969f8;
     font-weight: bold;
@@ -418,33 +438,55 @@ hr{
     text-transform: uppercase;
     /* 文字を白く光らせて際立たせる */
     text-shadow: 0 0 10px #8E34FD, 0 0 20px rgba(255, 255, 255, 0.4);
-    
+
     backface-visibility: visible;
-    
+
     /* 背景グラデーション (#3624ff から #ff3c3c) */
     background: linear-gradient(135deg, rgba(54, 36, 255, 0.25), rgba(23, 14, 14, 0.25));
-    
+
     /* 枠線グラデーション */
     border: 3px solid;
     border-image: linear-gradient(135deg, #3624ff, #c91cfd) 1;
-    
+
     /* 外側と内側の光（青と赤の混合） */
-    box-shadow: 0 0 20px rgba(54, 36, 255, 0.4), 
-                inset 0 0 20px rgba(31, 23, 23, 0.4);
+    box-shadow: 0 0 20px rgba(54, 36, 255, 0.4),
+        inset 0 0 20px rgba(31, 23, 23, 0.4);
 }
 
 /* 3D 配置設定 */
-.front  { transform: rotateY(0deg) translateZ(100px); }
-.back   { transform: rotateY(180deg) translateZ(100px); }
-.right  { transform: rotateY(90deg) translateZ(100px); }
-.left   { transform: rotateY(-90deg) translateZ(100px); }
-.top    { transform: rotateX(90deg) translateZ(100px); }
-.bottom { transform: rotateX(-90deg) translateZ(100px); }
+.front {
+    transform: rotateY(0deg) translateZ(100px);
+}
+
+.back {
+    transform: rotateY(180deg) translateZ(100px);
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+}
 
 /* 回転アニメーション */
 @keyframes cubeRotate {
-    0% { transform: rotateX(0deg) rotateY(0deg); }
-    100% { transform: rotateX(360deg) rotateY(360deg); }
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
 }
 
 /* 背景にうっすらと光を配置 */
@@ -456,31 +498,42 @@ hr{
     filter: blur(80px);
     z-index: -1;
 }
+
 /* memberページ(担当みさき) */
-.teammemberbackground{background-color: #222222;
+.teammemberbackground {
+    background-color: #222222;
 }
-.teammemberdiv{border:1px solid #f3f3f3;
-      display: flex;
+
+.teammemberdiv {
+    border: 1px solid #f3f3f3;
+    display: flex;
 }
-.teammemberphoto{border:3px solid #8E34FD;
+
+.teammemberphoto {
+    border: 3px solid #8E34FD;
     margin: 144px 132px 144px 100px;
-    
-    h3{font-family: "Tomorrow","Noto sans JP";
-    color: #f3f3f3;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 170%;
-    letter-spacing: -2.2%;   
+
+    h3 {
+        font-family: "Tomorrow", "Noto sans JP";
+        color: #f3f3f3;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 170%;
+        letter-spacing: -2.2%;
     }
-    p{font-family: "Noto Sans JP", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16px;
-      color:#F3F3F3;
+
+    p {
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #F3F3F3;
     }
 }
-.teammemberdiv1{border:1px solid #f3f3f3;
+
+.teammemberdiv1 {
+    border: 1px solid #f3f3f3;
     display: flex;
 
 }
@@ -490,153 +543,200 @@ hr{
 
 /* news_contents2下層ページ(担当みさき) */
 
-.dai{max-width:  1200px;
+.dai {
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 24px;
     text-align: center;
 }
-.newsback{background-color: #222222;
+
+.newsback {
+    background-color: #222222;
 }
-.newsborder{border:3px solid #8E34FD;
+
+.newsborder {
+    border: 3px solid #8E34FD;
     margin: 0px 100px 78px 100px;
 }
-.apextext{margin: 72px 100px 41px 100px;
+
+.apextext {
+    margin: 72px 100px 41px 100px;
 
 
-    h2{font-size: 36px;
-       font-family:"LINE Seed JP", sans-serif;
-       font-weight: 400;
-       font-style: normal; 
-       margin:0 auto;
-       text-align: center; 
-     }
-}
-.apexparticipation{margin: 0px 100px 72px 100px;
-
-    h2{font-size: 32px;
-       font-family:"LINE Seed JP", sans-serif;
-       font-weight: 400;
-       font-style: normal;  
-       color:#f2f2f2;
-       margin:0 auto;
-       text-align: center;
+    h2 {
+        font-size: 36px;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0 auto;
+        text-align: center;
     }
 }
-.newsbutton{
+
+.apexparticipation {
+    margin: 0px 100px 72px 100px;
+
+    h2 {
+        font-size: 32px;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f2f2f2;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.newsbutton {
     margin: 72px 0px 72px 0px;
 }
 
 
 /* news_contents1下層ページ(担当みさき) */
 
-.oya{background-color: #222222;
-    max-width:  1200px;
+.oya {
+    background-color: #222222;
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 24px;
     text-align: center;
 }
-.newsphoto{margin: 0 100px 78px 100px;
+
+.newsphoto {
+    margin: 0 100px 78px 100px;
     border: 3px solid#8E34FD;
 }
-.newsphoto1{border: 3px solid#8E34FD;
+
+.newsphoto1 {
+    border: 3px solid#8E34FD;
     margin-bottom: 24px;
 }
-.box1{h2{margin:0 auto;
-    text-align: center;
-    font-family: "LINE Seed JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+.box1 {
+    h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
+
     margin: 148px 0 53px 0;
 }
-.box2{p{margin:0 auto;
-    text-align: center;}
+
+.box2 {
+    p {
+        margin: 0 auto;
+        text-align: center;
+    }
+
     margin-bottom: 100px;
 }
-.box4{h2{margin:0 auto;
-    text-align: center;
-    font-family: "LINE Seed JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+.box4 {
+    h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
-    h3{margin:0 auto;
-    text-align: center;
-    font-family: "LINE Seed JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-}
-.box5{p{margin:0 auto;
-    text-align: center;}
-}
-.box6{margin:48px 348px 48px 348px;
-}
-.box7{h2{margin:0 auto;
-    text-align: center;
-    font-family: "LINE Seed JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+    h3 {
+        margin: 0 auto;
+        text-align: center;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 }
-.box8{margin:60px 100px 102px 100px;
+
+.box5 {
+    p {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
-.box9{border: 3px solid#8E34FD;
+
+.box6 {
+    margin: 48px 348px 48px 348px;
+}
+
+.box7 {
+    h2 {
+        margin: 0 auto;
+        text-align: center;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+.box8 {
+    margin: 60px 100px 102px 100px;
+}
+
+.box9 {
+    border: 3px solid#8E34FD;
     margin: 102px 416px 368px 416px;
     padding: 29px 50px 30px 100px;
 }
 
-   p{ font-family: "Noto Sans JP", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16px;
-      color:#F3F3F3;
-   }
+p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #F3F3F3;
+}
 
-   h3{font-family:"Goldman", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color:#F3F3F3;
-      font-size: 24px;
-   }
+h3 {
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F3F3F3;
+    font-size: 24px;
+}
 
 
 /*about下層ページ(担当：ジョン)*/
 
 
-.aboutbackground{
+.aboutbackground {
     background-color: #222222;
 }
 
-.abouttop{
-    max-width:  1200px;
+.abouttop {
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 24px;
     text-align: center;
 }
-.abouttoppicture{
+
+.abouttoppicture {
     width: 362px;
     height: 244px;
     margin-bottom: 36px;
 }
 
-.aboutmidashih2{
+.aboutmidashih2 {
     width: 460px;
     margin: auto;
-    text-align: center;   
+    text-align: center;
     margin-bottom: 36px;
 }
 
-   h2{
-    font-family: "Tomorrow","Noto sans JP";
+h2 {
+    font-family: "Tomorrow", "Noto sans JP";
     color: #8E34FD;
     font-size: 60px;
     font-weight: 500;
     line-height: 170%;
-    letter-spacing: -2.2%;   
+    letter-spacing: -2.2%;
 }
 
-.aboutkomidashih{
+.aboutkomidashih {
     font-size: 24px;
     font-weight: 200;
     color: #8E34FD;
@@ -645,49 +745,54 @@ hr{
 
 }
 
-.abouthonnbun{
+.abouthonnbun {
     color: #F3F3F3;
-    width:634px;  
-    display:block;
+    width: 634px;
+    display: block;
     margin: auto;
     line-height: 2.2;
- p{text-align: center;  
+
+    p {
+        text-align: center;
     }
 }
 
-.abouthistorymidashi{
-    font-family: "Tomorrow","Noto sans JP";
+.abouthistorymidashi {
+    font-family: "Tomorrow", "Noto sans JP";
     color: #8E34FD;
     font-size: 60px;
     font-weight: 500;
     letter-spacing: -2.2%;
     margin-top: 180px;
-    h2{text-align: center;
-    margin-bottom: -25px;}
-    
+
+    h2 {
+        text-align: center;
+        margin-bottom: -25px;
+    }
+
 }
 
-.abouthistory{
-    display:flex;
+.abouthistory {
+    display: flex;
     justify-content: center;
     margin-top: 100px;
     line-height: 1.9;
-    
+
 }
 
-.historydate{
+.historydate {
     color: #F3F3F3;
     list-style: none;
 
 }
 
-.historydate li{
+.historydate li {
     padding-left: 200px;
     padding-right: 50px;
- 
+
 }
 
-.historystory{
+.historystory {
     color: #F3F3F3;
     list-style: none;
     margin-bottom: 200px;
@@ -701,274 +806,654 @@ hr{
 /*Privacy Policy下層ページ(担当：ジョン)*/
 
 
-.PrivacyPolicy{
-    width:1200px;
+.PrivacyPolicy {
+    width: 1200px;
     background-color: #222222;
-     margin: auto;   
+    margin: auto;
 }
 
-.PPtext{
-    width:1000px;    
+.PPtext {
+    width: 1000px;
     color: #F3F3F3;
     margin: 0 auto;
-    text-align: center;  
+    text-align: center;
     padding-top: 40px;
     padding-bottom: 130px;
 }
 
 
 
-.housin{
-    width:1000px; 
+.housin {
+    width: 1000px;
     color: #F3F3F3;
-    margin: 0 auto;   
-    h2{
+    margin: 0 auto;
+
+    h2 {
         margin-bottom: 52px;
     }
-    ul{
-        padding-bottom: 130px;        
+
+    ul {
+        padding-bottom: 130px;
     }
-    li{margin-left: 1em;
-   }
+
+    li {
+        margin-left: 1em;
+    }
 }
 
-.hitotudake{
+.hitotudake {
     margin-top: 16px;
 }
 
 
 
-.toriatukai{
-    width:1000px; 
+.toriatukai {
+    width: 1000px;
     color: #F3F3F3;
-    margin: 0 auto;   
-    h2{
-    padding-bottom: 52px;
+    margin: 0 auto;
+
+    h2 {
+        padding-bottom: 52px;
     }
-    h3{
+
+    h3 {
         padding-bottom: 10px;
     }
-    p{
+
+    p {
         padding-bottom: 28px;
     }
 }
 
-.shirushi1{
+.shirushi1 {
     color: #F3F3F3;
-    width:1000px; 
+    width: 1000px;
     margin: auto;
-    text-align: center; 
-    h5{
+    text-align: center;
+
+    h5 {
         color: #F3F3F3;
         margin: 0 auto 28px auto;
-        text-align: center;  
+        text-align: center;
     }
-    p{
+
+    p {
         margin-bottom: 28px;
     }
 }
 
-.kojinjyouhou-2{
+.kojinjyouhou-2 {
     color: #F3F3F3;
-    width:1000px; 
-     margin: auto;
-     h3{
+    width: 1000px;
+    margin: auto;
+
+    h3 {
         margin-bottom: 10px;
-  
-     }
+
+    }
 }
 
-.kjpurpose-1{
-    h4{
+.kjpurpose-1 {
+    h4 {
         font-family: "Goldman";
         font-size: 20px;
         padding-top: 14px;
     }
 }
 
-.kjpurpose-1-ul{
+.kjpurpose-1-ul {
     margin-top: 14px;
-    padding-left: 2em;  
+    padding-left: 2em;
 }
 
-.kjpurpose-2{ 
-    h4{
-         font-family: "Goldman";
+.kjpurpose-2 {
+    h4 {
+        font-family: "Goldman";
         font-size: 20px;
         padding-top: 14px;
     }
 
-.kjpurpose-2-ul{
+    .kjpurpose-2-ul {
         margin-top: 14px;
-        padding-left: 2em;  
-         }
-  }
+        padding-left: 2em;
+    }
+}
 
-  .kjpurpose-3{ 
-    h4{
+.kjpurpose-3 {
+    h4 {
         font-size: 20px;
         padding-top: 14px;
     }
 
-.kjpurpose-3-ul{
+    .kjpurpose-3-ul {
         margin-top: 14px;
-        padding-left: 2em;  
-         }
-  }
+        padding-left: 2em;
+    }
+}
 
-  .kjpurpose-4{ 
-    h4{
-         font-family: "Goldman";
+.kjpurpose-4 {
+    h4 {
+        font-family: "Goldman";
         font-size: 20px;
         padding-top: 14px;
     }
 
-.kjpurpose-4-ul{
+    .kjpurpose-4-ul {
         margin-top: 14px;
-        padding-left: 2em;  
-         }
-  }
+        padding-left: 2em;
+    }
+}
 
-  .kjpurpose-5{ 
-    h4{
-         font-family: "Goldman";
+.kjpurpose-5 {
+    h4 {
+        font-family: "Goldman";
         font-size: 20px;
         padding-top: 14px;
     }
 
-.kjpurpose-5-ul{
+    .kjpurpose-5-ul {
         margin-top: 14px;
-        padding-left: 2em;  
-         }
-  }
+        padding-left: 2em;
+    }
+}
 
-  .kjpurpose-6{ 
-    h4{
-         font-family: "Goldman";
+.kjpurpose-6 {
+    h4 {
+        font-family: "Goldman";
         font-size: 20px;
         padding-top: 14px;
     }
 
-.kjpurpose-6-ul{
+    .kjpurpose-6-ul {
         margin-top: 14px;
-        padding-left: 2em;  
-         }
-  }
+        padding-left: 2em;
+    }
+}
 
-  .kjpurpose-7{ 
-    h4{
-         font-family: "Goldman";
+.kjpurpose-7 {
+    h4 {
+        font-family: "Goldman";
         font-size: 20px;
-        padding-top: 14px;     
+        padding-top: 14px;
     }
 
-.kjpurpose-7-ul{
+    .kjpurpose-7-ul {
         margin-top: 14px;
-        padding-left: 2em;  
+        padding-left: 2em;
         margin-bottom: 28px;
-         }
-  }
+    }
+}
 
-  .kojinjyouhou-3{
-        width:1000px; 
+.kojinjyouhou-3 {
+    width: 1000px;
     color: #F3F3F3;
-    margin: 0 auto;   
-    
-    h3{
+    margin: 0 auto;
+
+    h3 {
         padding-bottom: 10px;
     }
-    p{
+
+    p {
         padding-bottom: 24px;
     }
-  }
+}
 
-  .shirushi2{
-        width:1000px; 
-        color: #F3F3F3;
-        margin: 0 auto;   
-    h5{
+.shirushi2 {
+    width: 1000px;
+    color: #F3F3F3;
+    margin: 0 auto;
+
+    h5 {
         margin: 0 auto 28px auto;
-        text-align: center;  
-  }
+        text-align: center;
+    }
 }
 
-.shirushi2 ul{
-     padding-left: 2em;  
+.shirushi2 ul {
+    padding-left: 2em;
 }
 
-.kojinjyouhou-4{
-        width:1000px; 
+.kojinjyouhou-4 {
+    width: 1000px;
     color: #F3F3F3;
-    margin: 28px auto 0 auto;   
-    
-    h3{
+    margin: 28px auto 0 auto;
+
+    h3 {
         padding-bottom: 10px;
     }
-    p{
+
+    p {
         padding-bottom: 24px;
     }
-  }
+}
 
-  .kojinjyouhou-5{
-        width:1000px; 
+.kojinjyouhou-5 {
+    width: 1000px;
     color: #F3F3F3;
-    margin:  0 auto;   
-    
-    h3{
+    margin: 0 auto;
+
+    h3 {
         padding-bottom: 10px;
     }
-    p{
+
+    p {
         padding-bottom: 24px;
     }
-  }
+}
 
-  .kojinjyouhou-6{
-        width:1000px; 
+.kojinjyouhou-6 {
+    width: 1000px;
     color: #F3F3F3;
-    margin: 0 auto 120px auto;   
-    
-    h3{
+    margin: 0 auto 120px auto;
+
+    h3 {
         padding-bottom: 10px;
     }
-    p{
+
+    p {
         padding-bottom: 24px;
     }
-  }
+}
 
 
 
 
 
-  /*company下層ページ(担当：ジョン)*/
+/*company下層ページ(担当：ジョン)*/
 
 
-.cmpbackground{
+.cmpbackground {
     background-color: #222222;
-  }
+}
 
-.cmptop{
+.cmptop {
     display: flex;
     margin-top: 100px;
 }
 
-.missionvertical{
+.missionvertical {
     transform: rotate(270deg);
-    width:480px;
-    height:100px;
-    margin-top: 200px; 
+    width: 480px;
+    height: 100px;
+    margin-top: 200px;
     border-bottom: 3px solid #8E34FD;
-    margin-right: 10px; 
-    h2{
+    margin-right: 10px;
+
+    h2 {
         margin-left: 150px;
 
     }
 }
 
-.cmpsec1{
+.cmpsec1 {
     margin-left: -50px;
 
 }
 
-.cmptitle{
+.cmptitle {}
+
+
+
+/*fanclub下層ページ(担当：山本)*/
+.fan-top {
+    margin: 0 auto;
+
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text3 {
+    margin-top: 10px
+}
+
+.VIO {
+    color: #8E34FD;
+}
+
+.fan-top-btn {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+    .btn_area1 {
+        margin-left: 650px;
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+    .btn_area2 {
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+}
+
+
+.benefits {
+    margin-top: 70px;
+}
+
+.benefits-line {
+    background-color: #8E34FD;
+    border: none;
+    height: 2px;
+
+}
+
+.membership-benehits {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+}
+
+.standard-top {
+    color: #8E34FD;
+    text-align: center;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 70px;
+
+
+}
+
+.standard-text {
+    text-align: center;
+    margin-top: 24px;
+    line-height: 1.8;
+
+}
+
+.premium-top {
+    color: #8E34FD;
+    text-align: center;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 70px;
+}
+
+.premium-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+
+
+.premium-text1 {
+    margin-right: 500px;
+
+}
+
+.premium-text2 {
+    margin-top: -26px;
+    line-height: 1.8;
+}
+
+.premium-text3 {
+    margin-left: 500px;
+    margin-top: -58px;
+    line-height: 1.8;
+}
+
+
+
+
+.onlywomen {
+    color: #8E34FD;
+    text-align: center;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 70px;
+
+}
+
+.onlywomen-text2 {
+    margin-right: 300px;
+    margin-top: 24px;
+    line-height: 1.8;
+}
+
+.onlywomen-text3 {
+    margin-left: 300px;
+    margin-top: -38px;
+}
+
+
+.benefits-line2 {
+    background-color: #8E34FD;
+    border: none;
+    height: 2px;
+    margin-top: 65px;
+
+}
+
+.SUBSCRIPTION {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 65px;
+}
+
+.subscription-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    gap: 45px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.standard-plan {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #8E34FD;
+
+}
+
+.standard-plan-top {
+    color: #8E34FD;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+
+.standard-plan-price {
+    margin-top: 70px;
+
+}
+
+.price {
+    color: #8E34FD;
+    font-size: 50px;
+    font-family: "Tomorrow", "Noto sans JP";
+
+}
+
+
+.standard-plan-contents {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+
+.premium-plan {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #8E34FD;
+}
+
+.premium-plan-top {
+    color: #8E34FD;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+
+.premium-plan-price {
+    margin-top: 70px;
+
+}
+
+.premium-plan-contents {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+.premium-plan-contents2 {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+.onlywomen-plan {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #8E34FD;
+}
+
+.onlywomen-plan-top {
+    color: #8E34FD;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.onlywomen-plan-price {
+    margin-top: 70px;
+
+}
+
+.onlywomen-plan-contents {
+    margin-top: 50px;
+
+}
+
+.onlywomen-plan-contents2 {
+    margin-top: 70px;
+    line-height: 1.8;
+}
+
+
+.benefits-line3 {
+    background-color: #8E34FD;
+    border: none;
+    height: 2px;
+    margin-top: 70px;
+
+}
+
+.payment {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 65px;
+
+}
+
+.payment-box {
+    width: 950px;
+    height: 75px;
+    border: 3px solid #8E34FD;
+    margin: 0 auto;
+    margin-top: 26px;
+
+}
+
+.payment-text {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.payment-plan {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 65px;
+
+}
+
+.payment-plan-box {
+    width: 950px;
+    height: 75px;
+    border: 3px solid #8E34FD;
+    margin: 0 auto;
+    margin-top: 26px;
+
+}
+
+.payment-plan-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.fan-under {
+    margin-top: 122px;
+}
+
+.fan-under-text {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.fan-under-text2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 24px;
+    color: #F3F3F3;
+
+}
+
+.under-text {
+    color: #8E34FD;
+}
+
+.fan-top-btn {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+    .btn_area1 {
+        margin-left: 550px;
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+    .btn_area2 {
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
 
 }
