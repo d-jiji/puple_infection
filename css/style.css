@@ -456,37 +456,45 @@ hr{
     filter: blur(80px);
     z-index: -1;
 }
+
 /* memberページ(担当みさき) */
-.teammemberbackground{background-color: #222222;
+.teammemberbackground {
+    background-color: #222222;
 }
-.teammemberdiv{border:1px solid #f3f3f3;
-      display: flex;
+
+.teammemberdiv {
+    border: 1px solid #f3f3f3;
+    display: flex;
 }
-.teammemberphoto{border:3px solid #8E34FD;
+
+.teammemberphoto {
+    border: 3px solid #8E34FD;
     margin: 144px 132px 144px 100px;
-    
-    h3{font-family: "Tomorrow","Noto sans JP";
-    color: #f3f3f3;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 170%;
-    letter-spacing: -2.2%;   
+
+    h3 {
+        font-family: "Tomorrow", "Noto sans JP";
+        color: #f3f3f3;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 170%;
+        letter-spacing: -2.2%;
     }
-    p{font-family: "Noto Sans JP", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16px;
-      color:#F3F3F3;
+
+    p {
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #F3F3F3;
     }
 }
-.teammemberdiv1{border:1px solid #f3f3f3;
+
+.teammemberdiv1 {
+    border: 1px solid #f3f3f3;
     display: flex;
 
 }
-
-
-
 
 /* news_contents2下層ページ(担当みさき) */
 
@@ -525,7 +533,6 @@ hr{
 .newsbutton{
     margin: 72px 0px 72px 0px;
 }
-
 
 /* news_contents1下層ページ(担当みさき) */
 
