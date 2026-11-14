@@ -991,36 +991,43 @@ main
   }
  
 .cmptop{
-    border :1px solid #f2f2f2;
+    
     width: 1200px; /* 幅の指定が必須 */
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
+    margin-left: 280px;
 }
 
 .missionvertical{
-    border :1px solid #f2f2f2;
     transform: rotate(270deg);
-    width:350px;
+    width:550px;
     height:100px;
-    margin-top: 220px; 
+    margin-top: 250px; 
     border-bottom: 1px solid #8E34FD;
-    margin-right: 110px; 
+    margin-right: 200px; 
+    margin-left: -90px;
 }
 .missionvertical h2{
         font-family: "Goldman";
         letter-spacing: 0.1em;
-        margin-left: 100px;
+        margin-left: 120px;
 
     }
 
 .cmpsec1{
-    border :1px solid #f2f2f2;
-    margin-left: -200px;
+    width:1000px;
+    
+    margin-left: -500px;
 }
 
 .cmptitle1{
     margin-bottom: 80px;
+    margin-left: -100;
+}
+
+.cmptitle1 h2{
+    margin-left: 100px;
 }
 
 .messagespace{
@@ -1148,7 +1155,7 @@ main
 .Servicename5{
     font-family: "Tomorrow","Goldman";
     font-weight:700;
-    letter-spacing: -0.1em;
+    letter-spacing: -0.2em;
 }
 
 .Sleftlow{
@@ -1354,6 +1361,13 @@ main
 
 .letterpict{
     margin-left: 10px;
+    padding-bottom: 40px;
+  
+    
+}
+
+.pictogramletter{
+    
     
 
 }
