@@ -1074,7 +1074,7 @@ hr{
 }
 
 .Servicekind{
-    width: 1000px; /* 幅の指定が必須 */
+    width: 1000px; 
   margin: 0 auto;
    
     margin-top: 110px;
