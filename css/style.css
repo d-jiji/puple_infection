@@ -989,29 +989,34 @@ main
 .cmpbackground{
     background-color: #222222;
   }
-
+ 
 .cmptop{
+    border :1px solid #f2f2f2;
+    width: 1200px; /* 幅の指定が必須 */
+    margin: 0 auto;
     display: flex;
     margin-top: 50px;
 }
 
 .missionvertical{
+    border :1px solid #f2f2f2;
     transform: rotate(270deg);
-    width:480px;
+    width:350px;
     height:100px;
     margin-top: 220px; 
     border-bottom: 1px solid #8E34FD;
-    margin-right: 10px; 
+    margin-right: 110px; 
 }
 .missionvertical h2{
         font-family: "Goldman";
-        margin-left: 80px;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.1em;
+        margin-left: 100px;
 
     }
 
 .cmpsec1{
-    margin-left: -115px;
+    border :1px solid #f2f2f2;
+    margin-left: -200px;
 }
 
 .cmptitle1{
@@ -1055,11 +1060,13 @@ main
     border: 1px solid #8E34FD;
     width:220px;
     height:124px;
+    margin: auto;
+    text-align: center;
 }
 
 .pictogram{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 36px;
     text-align: center;
     margin-top: 10px;
     padding-bottom: 12px;
@@ -1075,4 +1082,103 @@ main
 .important1phraseEG{
     text-align: center;
      padding-bottom: 12px;
+}
+
+.middlev{
+    margin-top: 150px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.Servicesection{
+   h2{ 
+    text-align: center;
+    }
+}
+
+.Servicekind{
+    width: 1000px; /* 幅の指定が必須 */
+  margin: 0 auto;
+   
+    margin-top: 110px;
+}
+
+.Servicesections{
+    margin-bottom: 80px;
+    
+    display: flex;
+    
+}
+
+.Serviceleft{
+    
+    width:300px;
+    margin-right:71px ;
+
+}
+
+.Slefthigh{
+    border-left: 5px solid #8E34FD;
+    display: flex;
+
+}
+
+.Serviceno{
+
+}
+
+.titleno-1{
+    font-family: "Goldman";
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.Stitle{
+
+}
+
+.Servicename{
+    font-family: "Tomorrow","Goldman";
+    font-weight:700;
+    letter-spacing: 1.5;
+
+}
+
+.Servicename5{
+    font-family: "Tomorrow","Goldman";
+    font-weight:700;
+    letter-spacing: -0.1em;
+}
+
+.Sleftlow{
+    border-left: 5px solid #8E34FD;
+
+}
+
+.lowname{
+    font-family: "Tomorrow";
+    text-align: left;
+    color: #8E34FD;
+
+}
+
+.Serviceright{
+    width:700px;
+    text-align: left;
+
+}
+
+.righttext{
+    text-align: left;
+    position: relative;
+    bottom: 4px;
+}
+
+.middleV{
+    display: flex;
+    justify-content: center;
+}
+
+.middleleftV{
+    margin-right:100px;
 }
