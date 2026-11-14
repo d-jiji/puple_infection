@@ -458,80 +458,49 @@ hr{
 }
 
 /* memberページ(担当みさき) */
-.teammemberbackground {
-    background-color: #222222;
+.teammemberbackground{background-color: #222222;
 }
-
-.teammemberdiv {
-    border: 1px solid #f3f3f3;
+.teammemberdiv{
     display: flex;
-  
-origin/member1
- 
+    gap: 132px;
+    padding: 144px 100px 27px 100px; 
+    justify-content: center;
 }
-.newsphoto{border:3px solid #8E34FD;
-    margin: 31px 72px 100px;
+.teammemberphoto{border:3px solid #8E34FD;
 }
-.newsbox{border:3px solid #8E34FD;
-    background-color: #8E34FD;
-    width: fit-content;
-    padding: 4px 12px;
-    margin: 15px 0px 9px 16px ;
-    /* margin: 40px 20px 40px 20px; */
+.teammemberdiv1{
 
-    h4{font-family: "Tomorrow","Noto sans JP";
+    h3{font-family: "Tomorrow","Noto sans JP";
     color: #f3f3f3;
-    font-size: 8px;  
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: -2.2%;   
+    }
+    p{font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color:#F3F3F3;
+      text-align: left;
     }
 }
-.newsbox1{border:1px solid #f2f2f2;
-    margin-left:176px ; 
-    margin-top: 21px;
-    /* margin: 20px 21px 9px 176px; */
-    
-    h5{font-family: "Tomorrow","Noto sans JP";
-    color:#8E34FD;
-    font-size: 12px;  
-    }
-
-}
-.flex{display: flex;
-}
-.newsdiv2{border:1px solid #f2f2f2;
-    margin: 9px 8px 9px 8px;
-    text-align: left;
-  
-}
-
-.teammemberphoto {
-    border: 3px solid #8E34FD;
-    margin: 144px 132px 144px 100px;
-
-    h3 {
-        font-family: "Tomorrow", "Noto sans JP";
-        color: #f3f3f3;
-        font-size: 48px;
-        font-weight: 500;
-        line-height: 170%;
-        letter-spacing: -2.2%;
-    }
-
-    p {
-        font-family: "Noto Sans JP", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-        color: #F3F3F3;
-    }
-main
-}
-
-.teammemberdiv1 {
-    border: 1px solid #f3f3f3;
+.teammemberdiv2{
     display: flex;
-
+    gap: 132px;
+    padding: 0px 100px 27px 100px; 
+    justify-content: center;
 }
+.teammemberdiv3{
+    display: flex;
+    gap: 132px;
+    padding: 400px 100px 100px 100px; 
+    justify-content: center;
+}
+
+
+
 
 /* news_contents2下層ページ(担当みさき) */
 
