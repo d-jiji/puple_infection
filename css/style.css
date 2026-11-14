@@ -1136,3 +1136,12 @@ hr{
     position: relative;
     bottom: 4px;
 }
+
+.middleV{
+    display: flex;
+    justify-content: center;
+}
+
+.middleleftV{
+    margin-right:100px;
+}
