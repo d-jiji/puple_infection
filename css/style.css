@@ -1091,6 +1091,7 @@ main
 }
 
 .Servicesection{
+    margin-bottom: 114px;
    h2{ 
     text-align: center;
     }
@@ -1172,13 +1173,187 @@ main
     text-align: left;
     position: relative;
     bottom: 4px;
+    
 }
 
 .middleV{
     display: flex;
     justify-content: center;
+    margin-bottom: 320px;
 }
 
 .middleleftV{
     margin-right:100px;
+}
+
+.CPbox{
+    padding-top: 82px;
+    display: flex;
+    justify-content: center;
+}
+
+.CPboxleft{
+    margin: auto 0;
+    padding-right: 150px;
+}
+
+.CPboxright{
+    width:600px;
+  
+}
+
+.CPboxright p{
+    line-height: 3;
+}
+
+.CPboxri-1{
+    border-top: 1px solid #8E34FD;
+    display: flex;
+}
+
+.CPboxri-1l{
+    
+}
+
+.CPboxri-1r{
+    padding-left: 120px;
+    width: 400px; 
+}
+
+.CPboxri-1r p{
+     text-align: left;  
+}
+
+.CPboxri-3r{
+    padding-left: 120px;
+    width: 400px;
+}
+
+.CPboxri-3r p{
+    text-align: left;  
+    text-indent: -1em
+}
+
+.CPboxri-4r{
+    padding-left: 120px;
+    width: 400px;
+}
+
+.CPboxri-4r p{
+    text-align: left;  
+    text-indent: -2em
+}
+
+.cpunder{
+    display: flex;
+    justify-content: center;
+}
+.cpunderright{
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+
+.career{
+    margin-top: 30px;
+
+}
+
+.careertext{
+    font-family: "Tomorrow";
+    font-size: 24px;
+    color: #8E34FD;
+}
+
+.EGtitle{
+    margin-bottom: 10px;
+
+}
+
+.EGtitle h3{
+    font-family: "Tomorrow";
+    font-size: 40px;
+}
+
+.EGmessage{
+    margin-bottom: 10px;
+
+}
+
+.EGmessage h4{
+    font-family: "Tomorrow";
+    font-size: 21px;
+    color: #f2f2f2;
+}
+
+.cmpsec1btn{
+    margin-left: -50px;
+    transform: scale(0.8);
+}
+
+.cpfinalsection{
+    margin-top: 150px;
+   
+}
+
+.finalmessage{
+    margin: auto;
+    text-align: center;
+
+}
+
+.fmessetop{
+    font-family: "Goldman";
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.fmmiddlebox{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.fmmiddlemesse h2{
+    font-family: "Goldman";
+    font-size: 48px;
+}
+
+.fmmiddle{
+    margin-left: 6px;
+    margin-right: 1px;
+}
+
+.fmmiddle1{
+     font-family: "Goldman";
+      font-size: 56px;
+      color: #F3F3F3;
+      margin-right: -10px;
+}
+
+.fmmiddlebtn{   
+    transform: scale(0.8);
+}
+
+.fmlast{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.fmlastmesse{
+    color: #f2f2f2; 
+
+}
+
+.fmlasttext{
+    font-family: "Goldman";
+    font-size: 20px;
+}
+
+.letterpict{
+    margin-left: 10px;
+    
+
 }
