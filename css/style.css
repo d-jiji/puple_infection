@@ -1197,6 +1197,7 @@ hr{
 .lowname{
     font-family: "Tomorrow";
     text-align: left;
+    letter-spacing: -0.04em;
     color: #8E34FD;
 
 }
