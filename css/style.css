@@ -1187,9 +1187,7 @@ hr{
     display: flex;
 }
 
-.CPboxri-1l{
-    
-}
+
 
 .CPboxri-1r{
     padding-left: 120px;
@@ -1219,6 +1217,24 @@ hr{
     text-align: left;  
     text-indent: -2em
 }
+
+.companymap{
+    margin-left: 220px;
+    margin-bottom: 109px;
+    
+}
+
+.map-container {
+  width: 60%;
+}
+
+.map-container iframe {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 16 / 9; 
+  border: 0;
+}
+
 
 .cpunder{
     display: flex;
