@@ -1341,6 +1341,370 @@ hr{
 
 }
 
+
+/*fanclub下層ページ(担当：山本)*/
+.fan-top {
+    margin: 0 auto;
+
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text3 {
+    margin-top: 10px
+}
+
+.VIO {
+    color: #8E34FD;
+}
+
+.fan-top-btn {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+    .btn_area1 {
+        margin-left: 650px;
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+    .btn_area2 {
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+}
+
+
+.benefits {
+    margin-top: 70px;
+}
+
+.benefits-line {
+    background-color: #8E34FD;
+    border: none;
+    height: 2px;
+
+}
+
+.membership-benehits {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+}
+
+.standard-top {
+    color: #8E34FD;
+    text-align: center;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 70px;
+
+
+}
+
+.standard-text {
+    text-align: center;
+    margin-top: 24px;
+    line-height: 1.8;
+
+}
+
+.premium-top {
+    color: #8E34FD;
+    text-align: center;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 70px;
+}
+
+.premium-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+
+
+.premium-text1 {
+    margin-right: 500px;
+
+}
+
+.premium-text2 {
+    margin-top: -26px;
+    line-height: 1.8;
+}
+
+.premium-text3 {
+    margin-left: 500px;
+    margin-top: -58px;
+    line-height: 1.8;
+}
+
+
+
+
+.onlywomen {
+    color: #8E34FD;
+    text-align: center;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 70px;
+
+}
+
+.onlywomen-text2 {
+    margin-right: 300px;
+    margin-top: 24px;
+    line-height: 1.8;
+}
+
+.onlywomen-text3 {
+    margin-left: 300px;
+    margin-top: -38px;
+}
+
+
+.benefits-line2 {
+    background-color: #8E34FD;
+    border: none;
+    height: 2px;
+    margin-top: 65px;
+
+}
+
+.SUBSCRIPTION {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 65px;
+}
+
+.subscription-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    gap: 45px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.standard-plan {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #8E34FD;
+
+}
+
+.standard-plan-top {
+    color: #8E34FD;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+
+.standard-plan-price {
+    margin-top: 70px;
+
+}
+
+.price {
+    color: #8E34FD;
+    font-size: 50px;
+    font-family: "Tomorrow", "Noto sans JP";
+
+}
+
+
+.standard-plan-contents {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+
+.premium-plan {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #8E34FD;
+}
+
+.premium-plan-top {
+    color: #8E34FD;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+
+.premium-plan-price {
+    margin-top: 70px;
+
+}
+
+.premium-plan-contents {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+.premium-plan-contents2 {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+
+.onlywomen-plan {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #8E34FD;
+}
+
+.onlywomen-plan-top {
+    color: #8E34FD;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.onlywomen-plan-price {
+    margin-top: 70px;
+
+}
+
+.onlywomen-plan-contents {
+    margin-top: 50px;
+
+}
+
+.onlywomen-plan-contents2 {
+    margin-top: 70px;
+    line-height: 1.8;
+}
+
+
+.benefits-line3 {
+    background-color: #8E34FD;
+    border: none;
+    height: 2px;
+    margin-top: 70px;
+
+}
+
+.payment {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 65px;
+
+}
+
+.payment-box {
+    width: 950px;
+    height: 75px;
+    border: 3px solid #8E34FD;
+    margin: 0 auto;
+    margin-top: 26px;
+
+}
+
+.payment-text {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.payment-plan {
+    color: #8E34FD;
+    text-align: center;
+    margin-top: 65px;
+    font-family: "Tomorrow", "Noto sans JP";
+    margin-top: 65px;
+
+}
+
+.payment-plan-box {
+    width: 950px;
+    height: 75px;
+    border: 3px solid #8E34FD;
+    margin: 0 auto;
+    margin-top: 26px;
+
+}
+
+.payment-plan-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.fan-under {
+    margin-top: 122px;
+}
+
+.fan-under-text {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.fan-under-text2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 24px;
+    color: #F3F3F3;
+
+}
+
+.under-text {
+    color: #8E34FD;
+}
+
+.fan-top-btn {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+
+    .btn_area1 {
+        margin-left: 550px;
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+    .btn_area2 {
+
+        .explore_btn {
+            width: 262px;
+            height: 100px;
+
+        }
+
+    }
+
+}
 /*recruit下層ページ(担当：山本)*/
 .manager-outer{
     margin: 0 auto;
