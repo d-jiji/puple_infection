@@ -1473,7 +1473,10 @@ hr{
 .benefits {
     margin-top: 70px;
 }
-
+.benefits-outer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .benefits-line {
     background-color: #8E34FD;
     border: none;
@@ -1580,7 +1583,7 @@ hr{
     flex-direction: row;
     padding: 0 100px;
     gap: 45px;
-    margin-left: 250px;
+    
     margin-top: 40px;
 }
 
@@ -1845,12 +1848,18 @@ hr{
 
 }
 
+.process-img{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
 /*recruit form下層ページ(担当：山本)*/
 
 .application-form-container {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top:0px;
 }
 
 /* 2カラムレイアウト（グリッド） */
