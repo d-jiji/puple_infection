@@ -18,14 +18,10 @@ body{
 /* ----------------------------
             ヘッダー
 --------------------------------*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .mega-menu-container {
@@ -52,6 +48,10 @@ body {
     font-weight: 500;
     transition: background-color 0.3s ease;
     margin:0 20px;
+
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -98,7 +98,7 @@ body {
 }
 
 .mega-menu-section:nth-child(4){
-    margin-left: 30px;
+    margin-left: 32px;
 }
 
 .mega-menu-section ul {
@@ -114,6 +114,10 @@ body {
     text-decoration: none;
     font-size: 14px;
     transition: color 0.2s ease;
+
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .mega-menu-section a:hover {
@@ -123,6 +127,18 @@ body {
 .logo{
     margin-top: 2px;
 }
+
+.logo-btn a:link {
+    text-decoration: none;
+}
+.logo-btn a:hover {
+    text-decoration: none;
+}
+.logo-btn a:link{text-decoration: none;color:#8E34FD;}
+.logo-btn a:visited{text-decoration: none;color:#8E34FD;}
+.logo-btn a:hover{text-decoration: none;color: #F3F3F3; background-color:#8E34FD;}
+.logo-btn a:active{text-decoration: none;color: #F3F3F3;}
+
 
 .nav-item-cta{
     position: absolute;
@@ -144,6 +160,48 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+
+
+/* ----------------------------
+            フッター
+--------------------------------*/
+.footer_area{
+    height: 75px;
+    padding: 10px 80px;
+}
+
+.footer_list{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    list-style: none;
+
+    a{
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8E34FD;
+    }
+
+    p{
+        font-family: "Tomorrow", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #8E34FD;
+    }
+
+    img{
+        margin-left: -40px;
+        margin-top: -12px;
+    }
+}
+
+.top_footer_line{
+    width: 100%;
+    margin-bottom: 33px;
+}
+
 
 
 
@@ -293,7 +351,7 @@ hr{
 
 
 /* ----------------------------
-            TOP_ABOuT
+            TOP_ABOUT
 --------------------------------*/
 .about_top{
     width: 1200px;
@@ -342,7 +400,7 @@ hr{
 .fanclub_top{
     width: 1200px;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 
 
     h2{
@@ -370,8 +428,6 @@ hr{
         }
     }
 }
-
-
 
 .fanclub_btn{
     display: flex;
@@ -411,17 +467,17 @@ hr{
     z-index: 1;
 }
 .explore_btn:before {
-  content: "";
-  width: 0%;
-  height: 100%;
-  background: #8E34FD;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.2s;
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #8E34FD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
 }
 .explore_btn:hover:before {
-  width: 100%;
+    width: 100%;
 }
 
 
