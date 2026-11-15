@@ -751,6 +751,14 @@ a {
     margin: 72px 0px 72px 0px;
 }
 
+.teamcomments p{
+    text-align: left;
+    
+}
+
+
+
+
 /* news_contents1下層ページ(担当みさき) */
 
 .oya{background-color: #222222;
@@ -876,7 +884,8 @@ a {
     display:block;
     margin: auto;
     line-height: 2.2;
- p{text-align: center;  
+ 
+.abouthonnbun p{text-align: center;  
     }
 }
 
@@ -918,7 +927,7 @@ a {
     font-size: 16px;
     color: #F3F3F3;
     list-style: none;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 
@@ -1181,7 +1190,7 @@ a {
   .kojinjyouhou-6{
         width:1000px; 
     color: #F3F3F3;
-    margin: 0 auto 120px auto;   
+    margin: 0 auto 100px auto;   
     
     h3{
         padding-bottom: 10px;
