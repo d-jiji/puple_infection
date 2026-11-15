@@ -457,6 +457,41 @@ hr{
     z-index: -1;
 }
 
+/* newstopページ(担当みさき) */
+.newsbackground{background-color: #222222;
+}
+.newsdiv{border: 1px solid #F3F3F3;
+}
+.newsdiv1{border: 1px solid #F3F3F3;
+}
+.newsphoto{border:3px solid #8E34FD;
+     margin: 72px 31px 72px 100px;
+}
+.flex{display: flex;
+}
+.newsbox{background-color: #8E34FD;
+    /* margin: 15px 176px 9px 16px;  */
+
+    h4{font-family: "Noto Sans JP", sans-serif;
+      font-style: normal;
+      font-size: 8px;
+      color:#F3F3F3;
+    }
+}
+.newsbox1{border: 1px solid #F3F3F3;
+    margin: 21px 20px ;
+
+    h5{font-family: "Noto Sans JP", sans-serif;
+      font-style: normal;
+      font-size: 12px;
+      color:#8E34FD;
+    }
+}
+
+
+
+
+
 /* memberページ(担当みさき) */
 .teammemberbackground{background-color: #222222;
 }
@@ -498,9 +533,6 @@ hr{
     padding: 400px 100px 100px 100px; 
     justify-content: center;
 }
-
-
-
 
 /* news_contents2下層ページ(担当みさき) */
 
@@ -615,7 +647,6 @@ hr{
 
 
 /*about下層ページ(担当：ジョン)*/
-
 
 .aboutbackground{
     background-color: #222222;
