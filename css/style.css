@@ -1089,7 +1089,7 @@ hr{
         letter-spacing: 0.1em;
         margin-left: 120px;
 
-    }
+}
 
 .cmpsec1{
     width:1000px;
@@ -1459,6 +1459,127 @@ hr{
 
 .pictogramletter{  
 }
+
+
+
+
+
+@media (max-width: 760px) {
+    .missionvertical{
+        transform: none; 
+        width: 100%;
+        height: auto;
+
+    }
+    .missionvertical h2{
+        margin-left: 0; 
+    }
+    .cmpsec1message p{
+        margin-left: 0;
+        text-align:left;
+
+    }
+    /* PC用の大きなマージンやマイナスマージンをすべてリセット */
+    .cmptop {
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .missionvertical {
+        transform: none;
+        width: 100%;
+        height: auto;
+        margin: 0 auto 20px auto !important;
+    }
+
+    .missionvertical h2 {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .cmpsec1 {
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 20px;
+    }
+
+    .cmptitle1 {
+        margin-left: 0 !important;
+    }
+
+    .cmptitle1 h2,
+    .cmptitle2 h2 {
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .cmpsec1message p {
+        margin-left: 0 !important;
+        text-align: left !important; /* 左寄せにする場合 */
+    }
+
+    .cmpsec1btn {
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .Servicesections{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .Serviceleft{
+        
+
+    }
+
+    .Serviceright{
+        margin-top: 50px;
+        margin-left: 20px;
+        
+    }
+
+    .middleV{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middleleftV{
+        max-width: 760px;
+        margin-bottom: 50px;
+
+    }
+
+    .rightV{
+        max-width: 760px;
+    }
+
+    .CPbox{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 0px !important;
+       
+    }
+
+    .CPboxleft{
+        padding-right: 0px !important;
+        margin:50px 0px 50px 200px;
+
+    }
+   
+   
+}
+
+
+
+
 
 
 /*contact下層ページ(担当：ジョン)*/
@@ -1923,6 +2044,8 @@ input[type="checkbox"] {
     }
 
 }
+
+
 /*recruit下層ページ(担当：山本)*/
 .manager-outer{
     margin: 0 auto;
@@ -2166,7 +2289,7 @@ input[type="checkbox"] {
 }
 
 /* レスポンシブ対応（スマホ画面では1カラムにする） */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .form-grid {
     grid-template-columns: 1fr;
   }
