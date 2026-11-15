@@ -1023,7 +1023,7 @@ hr{
  
 .cmptop{
     
-    width: 1200px; /* 幅の指定が必須 */
+    width: 1200px; 
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
@@ -1441,6 +1441,7 @@ hr{
 
 .highbox{
     display: flex;
+    
 }
 
 .nameitem{
@@ -1455,12 +1456,12 @@ hr{
 
 .mastitem{
     background-color: #8E34FD;   
+    
 }
 
 .mastitem-1{
     font-size: 20px;
     color: #f2f2f2;
-
 }
 
 .lowbox{
@@ -1469,6 +1470,7 @@ hr{
 }
 
 .mail-input {
+    border: 2px solid #8E34FD;
   width: 100%;    
   max-width: 800px; 
   height: 60px;   
@@ -1477,6 +1479,7 @@ hr{
 }
 
 .tel-input{
+    border: 1px solid #8E34FD;
     width: 100%;   
   max-width: 800px; 
   height: 60px;   
@@ -1485,6 +1488,7 @@ hr{
 }
 
 .mail-textarea {
+    border: 2px solid #8E34FD;
     field-sizing: content;
     width: 100%; 
     max-width: 800px;   
@@ -1497,17 +1501,90 @@ hr{
 }
 
 input[type="checkbox"] {
-  inline-size: 30px; 
-  block-size: 30px; 
+    appearance: none;
+  -webkit-appearance: none; /* Safariなどの古いブラウザ対応 */
+  width: 30px;              /* 横幅（お好みで調整） */
+  height: 30px;             /* 高さ（お好みで調整） */
+  border: 2px solid #8E34FD;   /* 枠線の太さと色 */
+  border-radius: 0;         /* 角を90度（直角）にする */
+  background-color: #f2f2f2;   /* 背景色 */
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+    
+input[type="checkbox"]#doui1:checked {
+  background-color: #f2f2f2; 
 
 }
 
+input[type="checkbox"]#doui1:checked::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 5px;
+  height: 11px;
+  border: solid #8E34FD; 
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox_icon 
+ input[type="checkbox"]#doui1:checked {
+  background-color: #f2f2f2; 
+
+}
+
+.checkbox_icon input[type="checkbox"]#doui1:checked::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 5px;
+  height: 11px;
+  border: solid  #8E34FD; 
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
 
 
+.robobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:397px;
+    height: 123px;
+    background-color: #f2f2f2;
+    margin-left: 150px;
+    margin-bottom: 124px;
+}
+
+.robotext{
+    width: 190px;
+    height: 48px;
+    text-align: left;
+}
+
+.robomoji{
+    color: #222222;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.btn_areact{
+     text-align: center;
+    width:455px;
+    height:80px;
+    border: 1px solid #8E34FD;
+    
+}
 
 
+.explore_textct{
+   
 
-
+}
 
 
 
