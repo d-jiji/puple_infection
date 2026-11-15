@@ -870,6 +870,7 @@ a {
 }
 
 .abouthonnbun{
+    font-family: "Noto Sans JP", "sans-serif";
     color: #F3F3F3;
     width:634px;  
     display:block;
@@ -892,6 +893,7 @@ a {
 }
 
 .abouthistory{
+    font-family: "Noto Sans JP", "sans-serif";
     display:flex;
     justify-content: center;
     margin-top: 100px;
@@ -912,6 +914,8 @@ a {
 }
 
 .historystory{
+    font-family: "Noto Sans JP", "sans-serif";
+    font-size: 16px;
     color: #F3F3F3;
     list-style: none;
     margin-bottom: 200px;
@@ -935,28 +939,35 @@ a {
     width:1000px;    
     color: #F3F3F3;
     margin: 0 auto;
-    text-align: center;  
+    text-align: left;  
     padding-top: 40px;
     padding-bottom: 130px;
 }
 
+.PPzennbun{
+    text-align: left; 
+}
 
 
 .housin{
     width:1000px; 
     color: #F3F3F3;
     margin: 0 auto;   
-    h2{
+}
+    
+.housin h2{   
         margin-bottom: 52px;
     }
-    ul{
+
+.housin ul{
+        font-family: "Noto Sans JP", "sans-serif";
         padding-bottom: 130px;        
     }
-    li{margin-left: 1em;
+.housin  li{margin-left: 1em;
    }
-}
 
 .hitotudake{
+    font-family: "Noto Sans JP", "sans-serif";
     margin-top: 16px;
 }
 
@@ -966,31 +977,37 @@ a {
     width:1000px; 
     color: #F3F3F3;
     margin: 0 auto;   
-    h2{
+    text-align: left;
+}
+  .toriatukai  h2{
     padding-bottom: 52px;
     }
-    h3{
-        padding-bottom: 10px;
+  .toriatukai h3{
+     padding-bottom: 10px;
     }
-    p{
+   .toriatukai p{
+        text-align: left;  
         padding-bottom: 28px;
     }
-}
+
 
 .shirushi1{
     color: #F3F3F3;
     width:1000px; 
     margin: auto;
     text-align: center; 
-    h5{
+}
+.shirushi1 h5{
+        font-family: "Noto Sans JP", "sans-serif";
         color: #F3F3F3;
         margin: 0 auto 28px auto;
         text-align: center;  
     }
-    p{
-        margin-bottom: 28px;
+.shirushi1 p{
+    text-align: left; 
+     margin-bottom: 28px;
     }
-}
+
 
 .kojinjyouhou-2{
     color: #F3F3F3;
@@ -998,9 +1015,12 @@ a {
      margin: auto;
      h3{
         margin-bottom: 10px;
-  
      }
 }
+.kojinjyouhou-2 p{
+    text-align: left; 
+}
+
 
 .kjpurpose-1{
     h4{
@@ -1011,6 +1031,7 @@ a {
 }
 
 .kjpurpose-1-ul{
+    font-family: "Noto Sans JP", "sans-serif";
     margin-top: 14px;
     padding-left: 2em;  
 }
@@ -1023,12 +1044,14 @@ a {
     }
 
 .kjpurpose-2-ul{
+        font-family: "Noto Sans JP", "sans-serif";
         margin-top: 14px;
         padding-left: 2em;  
          }
   }
 
   .kjpurpose-3{ 
+    font-family: "Noto Sans JP", "sans-serif";
     h4{
         font-size: 20px;
         padding-top: 14px;
@@ -1041,6 +1064,7 @@ a {
   }
 
   .kjpurpose-4{ 
+    font-family: "Noto Sans JP", "sans-serif";
     h4{
          font-family: "Goldman";
         font-size: 20px;
@@ -1054,6 +1078,7 @@ a {
   }
 
   .kjpurpose-5{ 
+     font-family: "Noto Sans JP", "sans-serif";
     h4{
          font-family: "Goldman";
         font-size: 20px;
@@ -1067,6 +1092,7 @@ a {
   }
 
   .kjpurpose-6{ 
+        font-family: "Noto Sans JP", "sans-serif";
     h4{
          font-family: "Goldman";
         font-size: 20px;
@@ -1080,6 +1106,7 @@ a {
   }
 
   .kjpurpose-7{ 
+        font-family: "Noto Sans JP", "sans-serif";
     h4{
          font-family: "Goldman";
         font-size: 20px;
@@ -1102,6 +1129,7 @@ a {
         padding-bottom: 10px;
     }
     p{
+        text-align: left;
         padding-bottom: 24px;
     }
   }
@@ -1111,12 +1139,14 @@ a {
         color: #F3F3F3;
         margin: 0 auto;   
     h5{
+        font-family: "Noto Sans JP", "sans-serif";
         margin: 0 auto 28px auto;
         text-align: center;  
   }
 }
 
 .shirushi2 ul{
+    font-family: "Noto Sans JP", "sans-serif";
      padding-left: 2em;  
 }
 
@@ -1129,6 +1159,7 @@ a {
         padding-bottom: 10px;
     }
     p{
+        text-align: left;
         padding-bottom: 24px;
     }
   }
@@ -1142,6 +1173,7 @@ a {
         padding-bottom: 10px;
     }
     p{
+        text-align: left;
         padding-bottom: 24px;
     }
   }
@@ -1155,6 +1187,7 @@ a {
         padding-bottom: 10px;
     }
     p{
+        text-align: left;
         padding-bottom: 24px;
     }
   }
@@ -1308,21 +1341,12 @@ a {
 .Slefthigh{
     border-left: 5px solid #8E34FD;
     display: flex;
-
-}
-
-.Serviceno{
-
 }
 
 .titleno-1{
     font-family: "Goldman";
     font-size: 20px;
     padding-right: 5px;
-}
-
-.Stitle{
-
 }
 
 .Servicename{
@@ -1340,7 +1364,6 @@ a {
 
 .Sleftlow{
     border-left: 5px solid #8E34FD;
-
 }
 
 .lowname{
@@ -1561,12 +1584,6 @@ a {
     padding-bottom: 40px; 
 }
 
-.pictogramletter{  
-}
-
-
-
-
 
 @media (max-width: 760px) {
     .missionvertical{
@@ -1583,7 +1600,7 @@ a {
         text-align:left;
 
     }
-    /* PC用の大きなマージンやマイナスマージンをすべてリセット */
+    
     .cmptop {
         width: 100% !important;
         margin-left: 0 !important;
@@ -1622,7 +1639,7 @@ a {
 
     .cmpsec1message p {
         margin-left: 0 !important;
-        text-align: left !important; /* 左寄せにする場合 */
+        text-align: left !important; 
     }
 
     .cmpsec1btn {
@@ -1677,8 +1694,6 @@ a {
         margin:50px 0px 50px 200px;
 
     }
-   
-   
 }
 
 
@@ -1772,12 +1787,12 @@ a {
 
 input[type="checkbox"] {
     appearance: none;
-  -webkit-appearance: none; /* Safariなどの古いブラウザ対応 */
-  width: 30px;              /* 横幅（お好みで調整） */
-  height: 30px;             /* 高さ（お好みで調整） */
-  border: 2px solid #8E34FD;   /* 枠線の太さと色 */
-  border-radius: 0;         /* 角を90度（直角）にする */
-  background-color: #f2f2f2;   /* 背景色 */
+  -webkit-appearance: none; 
+  width: 30px; 
+  height: 30px; 
+  border: 2px solid #8E34FD; 
+  border-radius: 0; 
+  background-color: #f2f2f2; 
   cursor: pointer;
   position: relative;
   vertical-align: middle;
