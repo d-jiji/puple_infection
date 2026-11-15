@@ -1,5 +1,8 @@
 @charset "utf-8";
+img{max-width: 100%;height:auto;}
 /* CSS Document */
+
+
 
 header a:link{text-decoration: none;color:#8E34FD;}
 header a:visited{text-decoration: none;color:#8E34FD;}
@@ -265,6 +268,33 @@ p{
 /* ----------------------------
             TOP_NEWS
 --------------------------------*/
+
+/* タブレットレイアウト : 768 px以下。PCレイアウトからスタイルを継承します。 */
+  /*only screen andは消してもいい*/
+@media  (max-width: 768px) {
+ /*media(width<768px)　でもよい*/
+    .image-container {
+        flex-direction: column;
+}
+}
+
+
+.image-container {
+  display: flex;
+  gap: 20px; /* 画像と画像の間の余白 */
+}
+
+.box {
+  flex: 1; /* 等幅に広げる場合 */
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 .news_top{
     margin-top: 800px;
     margin-bottom: 150px;
