@@ -1,5 +1,5 @@
 @charset "utf-8";
-img{max-width: 100%;height:auto;}
+
 /* CSS Document */
 
 
@@ -2633,6 +2633,8 @@ input[type="checkbox"]#doui1:checked::after {
 .submit-btn:hover {
   background-color: #e5e7eb;
 }
+
+
 
 /* レスポンシブ対応（スマホ画面では1カラムにする） */
 @media (max-width: 760px) {
